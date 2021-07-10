@@ -1,0 +1,24 @@
+{
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "camelcase": "error",
+    "consistent-return": "off",
+    "eqeqeq": "error",
+    "no-alert": "error",
+    "no-console": ["warn", { "allow": ["debug", "info", "warn", "error"] }],
+    "no-duplicate-case": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-label": "error",
+    "no-implied-eval": "error",
+    "no-lone-blocks": "error",
+    "no-loss-of-precision": "error",
+    "no-template-curly-in-string": "error",
+    "no-unreachable-loop": "error",
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-const": "error",
+    "require-await": "error",
+    "spaced-comment": ["error", "always", { "markers": ["/ <reference"] }]
+  }
+}

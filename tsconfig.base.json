@@ -1,0 +1,116 @@
+{
+  "compilerOptions": {
+    // https://www.typescriptlang.org/tsconfig#Basic_Options_6172
+    "allowJs": true,
+    "checkJs": true,
+    // "composite": false, // TODO
+    // "declaration": false,
+    // "declarationMap": false,
+    // "downlevelIteration": false, // TODO
+    // "importHelpers": false,
+    // "incremental": false,
+    // "isolatedModules": true, // TODO
+    "jsx": "react",
+    // "lib": [],
+    "module": "CommonJS",
+    "noEmit": true,
+    "outDir": "dist",
+    // "outFile": "",
+    // "plugins": [],
+    // "removeComments": false,
+    // "rootDir": ".",
+    "sourceMap": true,
+    "target": "ES2021",
+    // "tsBuildInfoFile": ".tsbuildinfo",
+    // ----
+    // https://www.typescriptlang.org/tsconfig#Strict_Type_Checking_Options_6173
+    // "alwaysStrict": false,
+    // "noImplicitAny": false,
+    // "noImplicitThis": false,
+    "strict": true,
+    // "strictBindCallApply": false,
+    // "strictFunctionTypes": false,
+    // "strictNullChecks": false,
+    // "strictPropertyInitialization": false,
+    // ----
+    // https://www.typescriptlang.org/tsconfig#Module_Resolution_Options_6174
+    // "allowSyntheticDefaultImports": false,
+    // "allowUmdGlobalAccess": false,
+    // "baseUrl": ".",
+    // "esModuleInterop": false,
+    "moduleResolution": "Node",
+    // "paths": {},
+    // "preserveSymlinks": false,
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    // ----
+    // https://www.typescriptlang.org/tsconfig#Source_Map_Options_6175
+    // "inlineSourceMap": false,
+    // "inlineSources": false,
+    // "mapRoot": "",
+    // "sourceRoot": "",
+    // ----
+    // https://www.typescriptlang.org/tsconfig#Additional_Checks_6176
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // ----
+    // https://www.typescriptlang.org/tsconfig#Experimental_Options_6177
+    // "emitDecoratorMetadata": false,
+    // "experimentalDecorators": false,
+    // ----
+    // https://www.typescriptlang.org/tsconfig#Advanced_Options_6178
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    // "charset": "utf8",
+    // "declarationDir": "./types",
+    // "diagnostics": false,
+    // "disableReferencedProjectLoad": false,
+    // "disableSizeLimit": false,
+    // "disableSolutionSearching": false,
+    // "disableSourceOfProjectReferenceRedirect": false,
+    // "emitBOM": false,
+    // "emitDeclarationOnly": false,
+    // "explainFiles": false,
+    // "extendedDiagnostics": false,
+    "forceConsistentCasingInFileNames": true,
+    // "generateCpuProfile": "profile.cpuprofile",
+    // "importsNotUsedAsValues": "remove", // TODO
+    // "jsxFactory": "React.createElement",
+    // "jsxFragmentFactory": "React.Fragment",
+    // "jsxImportSource": "react",
+    // "keyofStringsOnly": false,
+    // "listEmittedFiles": false, // TODO
+    // "listFiles": false, // TODO
+    // "maxNodeModuleJsDepth": 0,
+    "newLine": "lf",
+    // "noEmitHelpers": false,
+    // "noEmitOnError": false, // TODO
+    // "noErrorTruncation": false,
+    // "noImplicitUseStrict": false,
+    // "noLib": false,
+    // "noResolve": false, // TODO
+    // "noStrictGenericChecks": false,
+    // "out": null,
+    // "preserveConstEnums": false,
+    // "reactNamespace": "React",
+    "resolveJsonModule": true,
+    // "skipDefaultLibCheck": false,
+    "skipLibCheck": true,
+    // "stripInternal": false,
+    // "suppressExcessPropertyErrors": false,
+    // "suppressImplicitAnyIndexErrors": false,
+    // "traceResolution": false,
+    // "useDefineForClassFields": false,
+    // ----
+    // https://www.typescriptlang.org/tsconfig#Command_line_Options_6171
+    // "preserveWatchOutput": false,
+    "pretty": true // keep this line uncommented to avoid "dangling comma" problem.
+  }
+}
