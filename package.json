@@ -1,0 +1,13 @@
+{
+  "name": "@shuji-koike/boilerplate-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuji-koike/boilerplate.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
