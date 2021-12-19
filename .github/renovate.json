@@ -1,0 +1,14 @@
+{
+  "extends": ["config:base"],
+  "schedule": "after 8am and before 9am",
+  "timezone": "Asia/Tokyo",
+  "enabledManagers": ["github-actions", "npm"],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all minor and patch dependencies",
+      "automerge": true
+    }
+  ]
+}
