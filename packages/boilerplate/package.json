@@ -7,7 +7,7 @@
     "url": "https://github.com/shuji-koike/boilerplate.git"
   },
   "files": [
-    ""
+    "tsconfig.base.json"
   ],
   "dependencies": {
     "@types/jest": "^27.0.3",
