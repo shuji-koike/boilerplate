@@ -1,116 +1,117 @@
 {
   "compilerOptions": {
-    // https://www.typescriptlang.org/tsconfig#Basic_Options_6172
-    "allowJs": true,
-    "checkJs": true,
-    // "composite": false, // TODO
-    // "declaration": false,
-    // "declarationMap": false,
-    // "downlevelIteration": false, // TODO
-    // "importHelpers": false,
-    // "incremental": false,
-    // "isolatedModules": true, // TODO
-    "jsx": "react",
-    // "lib": [],
-    "module": "CommonJS",
-    "noEmit": true,
-    "outDir": "dist",
-    // "outFile": "",
-    // "plugins": [],
-    // "removeComments": false,
-    // "rootDir": ".",
-    "sourceMap": true,
-    "target": "ES2021",
-    // "tsBuildInfoFile": ".tsbuildinfo",
-    // ----
-    // https://www.typescriptlang.org/tsconfig#Strict_Type_Checking_Options_6173
-    // "alwaysStrict": false,
-    // "noImplicitAny": false,
-    // "noImplicitThis": false,
-    "strict": true,
-    // "strictBindCallApply": false,
-    // "strictFunctionTypes": false,
-    // "strictNullChecks": false,
-    // "strictPropertyInitialization": false,
-    // ----
-    // https://www.typescriptlang.org/tsconfig#Module_Resolution_Options_6174
-    // "allowSyntheticDefaultImports": false,
-    // "allowUmdGlobalAccess": false,
-    // "baseUrl": ".",
-    // "esModuleInterop": false,
-    "moduleResolution": "Node",
-    // "paths": {},
-    // "preserveSymlinks": false,
-    // "rootDirs": [],
-    // "typeRoots": [],
-    // "types": [],
-    // ----
-    // https://www.typescriptlang.org/tsconfig#Source_Map_Options_6175
-    // "inlineSourceMap": false,
-    // "inlineSources": false,
-    // "mapRoot": "",
-    // "sourceRoot": "",
-    // ----
-    // https://www.typescriptlang.org/tsconfig#Additional_Checks_6176
+    // https://www.typescriptlang.org/tsconfig#Type_Checking_6248
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    // "alwaysStrict": true,
+    // "exactOptionalPropertyTypes": true, // TODO
     "noFallthroughCasesInSwitch": true,
+    // "noImplicitAny": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
+    // "noImplicitThis": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    // ----
-    // https://www.typescriptlang.org/tsconfig#Experimental_Options_6177
-    // "emitDecoratorMetadata": false,
-    // "experimentalDecorators": false,
-    // ----
-    // https://www.typescriptlang.org/tsconfig#Advanced_Options_6178
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "assumeChangesOnlyAffectDirectDependencies": true,
-    // "charset": "utf8",
+    "strict": true,
+    // "strictBindCallApply": true,
+    // "strictFunctionTypes": true,
+    // "strictNullChecks": true,
+    // "strictPropertyInitialization": true,
+    // "useUnknownInCatchVariables": true,
+    // https://www.typescriptlang.org/tsconfig#Modules_6244
+    // "allowUmdGlobalAccess": false,
+    // "baseUrl": ".",
+    // "module": "CommonJS",
+    "moduleResolution": "Node",
+    // "noResolve": false,
+    // "paths": {},
+    "resolveJsonModule": true,
+    // "rootDir": ".",
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    // https://www.typescriptlang.org/tsconfig#Emit_6246
+    // "declaration": false,
     // "declarationDir": "./types",
-    // "diagnostics": false,
-    // "disableReferencedProjectLoad": false,
-    // "disableSizeLimit": false,
-    // "disableSolutionSearching": false,
-    // "disableSourceOfProjectReferenceRedirect": false,
+    // "declarationMap": false,
+    // "downlevelIteration": false, // TODO
     // "emitBOM": false,
     // "emitDeclarationOnly": false,
-    // "explainFiles": false,
-    // "extendedDiagnostics": false,
+    // "importHelpers": false,
+    // "importsNotUsedAsValues": "remove",
+    // "inlineSourceMap": false,
+    // "inlineSources": false,
+    // "mapRoot": "",
+    "newLine": "lf",
+    "noEmit": true,
+    // "noEmitHelpers": false,
+    // "noEmitOnError": false,
+    // "outDir": "dist",
+    // "outFile": "",
+    // "preserveConstEnums": true,
+    "preserveValueImports": false,
+    // "removeComments": false,
+    "sourceMap": true,
+    // "sourceRoot": "",
+    // "stripInternal": false,
+    // https://www.typescriptlang.org/tsconfig#JavaScript_Support_6247
+    "allowJs": true,
+    "checkJs": true,
+    // "maxNodeModuleJsDepth": 0,
+    // https://www.typescriptlang.org/tsconfig#Editor_Support_6249
+    // "disableSizeLimit": false,
+    // "plugins": [],
+    // https://www.typescriptlang.org/tsconfig#Interop_Constraints_6252
+    // "allowSyntheticDefaultImports": false,
+    // "esModuleInterop": false,
     "forceConsistentCasingInFileNames": true,
-    // "generateCpuProfile": "profile.cpuprofile",
-    // "importsNotUsedAsValues": "remove", // TODO
+    // "isolatedModules": false,
+    // "preserveSymlinks": false,
+    // https://www.typescriptlang.org/tsconfig#Backwards_Compatibility_6253
+    // "charset": "utf8",
+    // "keyofStringsOnly": false,
+    // "noImplicitUseStrict": false,
+    // "noStrictGenericChecks": false,
+    // "out": "",
+    // "suppressExcessPropertyErrors": false,
+    // "suppressImplicitAnyIndexErrors": false,
+    // https://www.typescriptlang.org/tsconfig#Language_and_Environment_6254
+    // "emitDecoratorMetadata": false,
+    // "experimentalDecorators": false,
+    "jsx": "react",
     // "jsxFactory": "React.createElement",
     // "jsxFragmentFactory": "React.Fragment",
     // "jsxImportSource": "react",
-    // "keyofStringsOnly": false,
-    // "listEmittedFiles": false, // TODO
-    // "listFiles": false, // TODO
-    // "maxNodeModuleJsDepth": 0,
-    "newLine": "lf",
-    // "noEmitHelpers": false,
-    // "noEmitOnError": false, // TODO
-    // "noErrorTruncation": false,
-    // "noImplicitUseStrict": false,
+    // "lib": [],
     // "noLib": false,
-    // "noResolve": false, // TODO
-    // "noStrictGenericChecks": false,
-    // "out": null,
-    // "preserveConstEnums": false,
     // "reactNamespace": "React",
-    "resolveJsonModule": true,
+    "target": "ESNext",
+    // "useDefineForClassFields": false,
+    // https://www.typescriptlang.org/tsconfig#Compiler_Diagnostics_6251
+    // "diagnostics": false,
+    // "explainFiles": false,
+    // "extendedDiagnostics": false,
+    // "generateCpuProfile": "profile.cpuprofile",
+    // "listEmittedFiles": false,
+    // "listFiles": false,
+    // "traceResolution": false,
+    // https://www.typescriptlang.org/tsconfig#Projects_6255
+    // "composite": false,
+    // "disableReferencedProjectLoad": false,
+    // "disableSolutionSearching": false,
+    // "disableSourceOfProjectReferenceRedirect": false,
+    // "incremental": false,
+    // "tsBuildInfoFile": ".tsbuildinfo",
+    // https://www.typescriptlang.org/tsconfig#Output_Formatting_6256
+    // "noErrorTruncation": false,
+    // "preserveWatchOutput": false,
+    "pretty": true,
+    // https://www.typescriptlang.org/tsconfig#Completeness_6257
     // "skipDefaultLibCheck": false,
     "skipLibCheck": true,
-    // "stripInternal": false,
-    // "suppressExcessPropertyErrors": false,
-    // "suppressImplicitAnyIndexErrors": false,
-    // "traceResolution": false,
-    // "useDefineForClassFields": false,
-    // ----
-    // https://www.typescriptlang.org/tsconfig#Command_line_Options_6171
-    // "preserveWatchOutput": false,
-    "pretty": true // keep this line uncommented to avoid "dangling comma" problem.
+    // https://www.typescriptlang.org/tsconfig#Watch_and_Build_Modes_6250
+    "assumeChangesOnlyAffectDirectDependencies": true
   }
 }
