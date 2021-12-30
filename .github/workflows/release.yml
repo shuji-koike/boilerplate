@@ -1,13 +1,11 @@
 name: release
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - "v*.*.*"
 jobs:
   publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     env:
       NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
@@ -17,11 +15,12 @@ jobs:
           node-version: "16"
           cache: "yarn"
           registry-url: "https://registry.npmjs.org"
-      - run: npm version --no-git-tag-version && npm publish
+      - uses: softprops/action-gh-release@v1
+      - run: npm publish
         working-directory: packages/boilerplate
-      - run: npm version --no-git-tag-version && npm publish
+      - run: npm publish
         working-directory: packages/eslint-config
-      - run: npm version --no-git-tag-version && npm publish
+      - run: npm publish
         working-directory: packages/storybook
-      - run: npm version --no-git-tag-version && npm publish
+      - run: npm publish
         working-directory: packages/vite-react
