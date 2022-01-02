@@ -8,7 +8,6 @@
     "./import.json",
     "./typescript.json",
     "./react.json",
-    "./firebase.json",
     "prettier"
   ]
 }
