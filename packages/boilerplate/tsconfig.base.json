@@ -23,7 +23,7 @@
     // https://www.typescriptlang.org/tsconfig#Modules_6244
     // "allowUmdGlobalAccess": false,
     // "baseUrl": ".",
-    // "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "Node",
     // "noResolve": false,
     // "paths": {},
@@ -65,9 +65,9 @@
     // "plugins": [],
     // https://www.typescriptlang.org/tsconfig#Interop_Constraints_6252
     // "allowSyntheticDefaultImports": false,
-    // "esModuleInterop": false,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    // "isolatedModules": false,
+    "isolatedModules": true,
     // "preserveSymlinks": false,
     // https://www.typescriptlang.org/tsconfig#Backwards_Compatibility_6253
     // "charset": "utf8",
@@ -107,7 +107,7 @@
     // https://www.typescriptlang.org/tsconfig#Output_Formatting_6256
     // "noErrorTruncation": false,
     // "preserveWatchOutput": false,
-    "pretty": true,
+    // "pretty": true,
     // https://www.typescriptlang.org/tsconfig#Completeness_6257
     // "skipDefaultLibCheck": false,
     "skipLibCheck": true,
