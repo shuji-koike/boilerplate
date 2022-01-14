@@ -20,6 +20,6 @@
     "react-is": "^17.0.2",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
-    "vite": "^2.7.10"
+    "vite": "^2.7.12"
   }
 }
