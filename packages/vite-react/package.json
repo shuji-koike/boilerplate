@@ -10,17 +10,17 @@
     "vite.config.ts"
   ],
   "dependencies": {
-    "@babel/core": "^7.17.0",
+    "@babel/core": "^7.17.2",
     "@emotion/babel-plugin": "^11.7.2",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "@types/react-router-dom": "^5.3.3",
-    "@vitejs/plugin-react": "^1.1.4",
+    "@vitejs/plugin-react": "^1.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
-    "vite": "^2.7.13"
+    "vite": "^2.8.0"
   }
 }
