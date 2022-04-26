@@ -14,8 +14,8 @@
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/react": "^6.4.22",
     "babel-loader": "^8.2.5",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "typescript": "^4.6.3",
     "webpack": "^4.46.0"
   }
