@@ -10,10 +10,10 @@
     "tsconfig.base.json"
   ],
   "dependencies": {
-    "@types/jest": "^27.4.1",
-    "@types/node": "^16.11.32",
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0",
+    "@types/jest": "^27.5.0",
+    "@types/node": "^16.11.33",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
     "dotenv": "^16.0.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
