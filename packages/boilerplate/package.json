@@ -10,7 +10,6 @@
     "tsconfig.base.json"
   ],
   "dependencies": {
-    "@types/jest": "^27.5.1",
     "@types/node": "^16.11.36",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
@@ -20,9 +19,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
-    "jest": "^27.5.1",
     "prettier": "^2.6.2",
-    "ts-jest": "^27.1.5",
     "ts-node": "^10.7.0",
     "ts-node-dev": "^1.1.8",
     "tsconfig-paths": "^4.0.0",
