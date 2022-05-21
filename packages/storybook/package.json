@@ -17,6 +17,6 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "typescript": "^4.6.4",
-    "webpack": "^4.46.0"
+    "webpack": "^5.72.1"
   }
 }
