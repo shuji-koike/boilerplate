@@ -10,9 +10,9 @@
     "vite.config.ts"
   ],
   "dependencies": {
-    "@babel/core": "^7.18.13",
+    "@babel/core": "^7.19.0",
     "@emotion/babel-plugin": "^11.10.2",
-    "@types/react": "^18.0.18",
+    "@types/react": "^18.0.19",
     "@types/react-dom": "^18.0.6",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^1.3.2",
