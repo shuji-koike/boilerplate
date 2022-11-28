@@ -10,7 +10,7 @@
     ""
   ],
   "dependencies": {
-    "@babel/core": "^7.20.2",
+    "@babel/core": "^7.20.5",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/react": "^6.5.13",
     "babel-loader": "^8.3.0",
