@@ -1,6 +1,7 @@
 {
   "extends": ["config:base"],
-  "schedule": "after 8am and before 9am",
+  "prHourlyLimit": 0,
+  "schedule": "after 10am and before 11am on monday",
   "timezone": "Asia/Tokyo",
   "enabledManagers": ["github-actions", "npm"],
   "rangeStrategy": "bump",
