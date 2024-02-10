@@ -19,6 +19,7 @@
     "object-shorthand": "error",
     "prefer-const": "error",
     "require-await": "error",
+    "sort-imports": ["error", { "ignoreDeclarationSort": true }],
     "spaced-comment": ["error", "always", { "markers": ["/ <reference"] }]
   }
 }
