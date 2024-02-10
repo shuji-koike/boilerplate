@@ -6,16 +6,16 @@
     }
   },
   "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-boolean-value": ["error", "never"],
+    "react/jsx-curly-brace-presence": ["error", "never"],
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".jsx", ".tsx"] }
     ],
-    "react/jsx-boolean-value": ["error", "never"],
-    "react/jsx-curly-brace-presence": ["error", "never"],
     "react/jsx-uses-vars": "error",
     "react/prop-types": "off",
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "off",
     "react/self-closing-comp": ["error"]
   }
 }
