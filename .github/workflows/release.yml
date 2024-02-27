@@ -6,8 +6,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
@@ -18,11 +16,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: pnpm install
       - uses: softprops/action-gh-release@v1
-      - run: npm publish
-        working-directory: packages/boilerplate
-      - run: npm publish
-        working-directory: packages/eslint-config
-      - run: npm publish
-        working-directory: packages/storybook
-      - run: npm publish
-        working-directory: packages/vite-react
+      - run: pnpm publish --access public --recursive --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
