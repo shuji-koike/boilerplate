@@ -1,8 +1,6 @@
 name: release
 on:
   push:
-    tags:
-      - "v*.*.*"
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -15,7 +13,7 @@ jobs:
           cache: "pnpm"
           registry-url: "https://registry.npmjs.org"
       - run: pnpm install
-      - uses: softprops/action-gh-release@v1
       - run: pnpm publish --access public --recursive --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - uses: softprops/action-gh-release@v1
