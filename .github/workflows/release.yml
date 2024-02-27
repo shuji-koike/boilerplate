@@ -10,11 +10,13 @@ jobs:
       NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "yarn"
+          cache: "pnpm"
           registry-url: "https://registry.npmjs.org"
+      - run: pnpm install
       - uses: softprops/action-gh-release@v1
       - run: npm publish
         working-directory: packages/boilerplate

@@ -5,15 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - uses: actions/cache@v4
-        id: cache_node_modules
-        with:
-          path: "**/node_modules"
-          key: node_modules-${{ hashFiles('**/package.json', '**/yarn.lock') }}
-      - run: yarn install --frozen-lockfile
-        if: steps.cache_node_modules.outputs.cache-hit != 'true'
-      - run: yarn eslint .
-      - run: yarn prettier --check .
+          cache: "pnpm"
+      - run: pnpm install
+      - run: npx eslint .
+      - run: npx prettier --check .

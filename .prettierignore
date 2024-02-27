@@ -8,3 +8,5 @@ coverage/
 *.min.*
 .env*
 *.log
+
+pnpm-lock.yaml

@@ -1,8 +1,11 @@
 {
-  "extends": ["config:base"],
-  "prHourlyLimit": 0,
-  "schedule": "after 10am and before 11am on monday",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "dependencyDashboard": true,
   "timezone": "Asia/Tokyo",
+  "schedule": "after 10am and before 11am on monday",
+  "prHourlyLimit": 0,
+  "configMigration": true,
   "enabledManagers": ["github-actions", "npm"],
   "rangeStrategy": "bump",
   "packageRules": [
@@ -12,5 +15,6 @@
       "automerge": true
     }
   ],
-  "postUpdateOptions": ["yarnDedupeHighest"]
+  "postUpdateOptions": ["pnpmDedupe", "gomodTidy"],
+  "addLabels": ["deps"]
 }
