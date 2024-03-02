@@ -1,6 +1,7 @@
 name: release
 on:
-  push:
+  release:
+    types: [published]
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -16,4 +17,3 @@ jobs:
       - run: pnpm publish --access public --recursive --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      # - uses: softprops/action-gh-release@v1
