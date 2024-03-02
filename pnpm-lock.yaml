@@ -81,9 +81,6 @@ importers:
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
-      webpack:
-        specifier: ^5.90.3
-        version: 5.90.3(esbuild@0.18.20)
 
   packages/vite-react:
     dependencies:
