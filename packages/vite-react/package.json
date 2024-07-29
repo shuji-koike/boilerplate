@@ -19,7 +19,7 @@
     "react-is": "^18.3.1",
     "react-router": "^6.25.1",
     "react-router-dom": "^6.25.1",
-    "vite": "^5.3.4",
+    "vite": "^5.3.5",
     "vite-node": "^1.6.0",
     "vitest": "^1.6.0"
   }
