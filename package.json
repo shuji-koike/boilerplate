@@ -1,6 +1,6 @@
 {
   "name": "@shuji-koike/boilerplate-workspace",
-  "version": "1.24.5",
+  "version": "1.25.0",
   "private": true,
   "engines": {
     "node": "20.17.0"
