@@ -1,6 +1,6 @@
 {
   "name": "@shuji-koike/boilerplate-workspace",
-  "version": "1.25.1",
+  "version": "2.0.0",
   "private": true,
   "packageManager": "pnpm@9.15.0"
 }
