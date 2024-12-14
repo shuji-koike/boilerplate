@@ -2,8 +2,5 @@
   "name": "@shuji-koike/boilerplate-workspace",
   "version": "1.25.1",
   "private": true,
-  "engines": {
-    "node": "20.18.1"
-  },
   "packageManager": "pnpm@9.15.0"
 }
