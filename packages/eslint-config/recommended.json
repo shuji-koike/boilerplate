@@ -5,7 +5,7 @@
     "consistent-return": "off",
     "eqeqeq": "error",
     "no-alert": "error",
-    "no-console": ["warn", { "allow": ["debug", "info", "warn", "error"] }],
+    "no-console": ["error", { "allow": ["debug", "info", "warn", "error"] }],
     "no-duplicate-case": "error",
     "no-eval": "error",
     "no-extend-native": "error",
