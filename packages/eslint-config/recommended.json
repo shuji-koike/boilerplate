@@ -6,7 +6,6 @@
     "eqeqeq": "error",
     "no-alert": "error",
     "no-console": ["error", { "allow": ["debug", "info", "warn", "error"] }],
-    "no-duplicate-case": "error",
     "no-eval": "error",
     "no-extend-native": "error",
     "no-extra-label": "error",
