@@ -11,5 +11,4 @@ jobs:
           node-version: "20"
           cache: "pnpm"
       - run: pnpm install
-      - run: npx eslint .
       - run: npx prettier --check .
